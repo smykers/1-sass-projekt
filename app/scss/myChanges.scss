@@ -1,0 +1,34 @@
+    // My colors
+    $base-color: #a5e200;
+    $hover-color: #88ba00;
+    $bar-color: #f0f4dc;
+    //fonts
+    $header-font-family: "Archivo Black";
+    $font-family: "Raleway";
+    //font-size
+    $font-size: 66px;
+    $btn-primary-size: 26px;
+    $btn-primary-translation: 24px;
+    //about section icons
+    $height: 96px;
+    $width: 96px;
+    // ZMIANY:
+    .t108-one-page #counters-numbers .container .counters-box .text-primary {
+        color: $base-color;
+    }
+    
+    .t108-one-page #about .about-box .icon-about {
+        background-color: $base-color;
+    }
+    
+    body a {
+        color: $base-color;
+    }
+    
+    .btn-primary {
+        background-color: $base-color;
+    }
+    
+    #main-slider .carousel-caption h1 {
+        font-size: $font-size;
+    }
