@@ -12,11 +12,37 @@
     //about section icons
     $height: 96px;
     $width: 96px;
+    
+    
     // ZMIANY:
     .t108-one-page #counters-numbers .container .counters-box .text-primary {
         color: $base-color;
+
+       
     }
     
+
+    .navbar-default .navbar-nav .btn-search{
+        color: $base-color;
+    }
+
+    .header-contact ul .fa-twitter, .header-contact ul .fa-facebook, .header-contact ul .fa-linkedin, .header-contact ul .fa-google-plus{
+        color: $base-color;
+    }
+
+    .carousel .carousel-control .icon-prev, .carousel .carousel-control .icon-next{
+        background-color: $base-color;
+    }
+
+    hr.divider-light-dark{
+        border-color: $base-color;
+    }
+    
+    .t108-one-page #counters-services .icon-services{
+        color: $base-color;
+        border-color: $base-color;
+    }
+
     .t108-one-page #about .about-box .icon-about {
         background-color: $base-color;
     }
@@ -27,8 +53,81 @@
     
     .btn-primary {
         background-color: $base-color;
+        border-color: $base-color;
     }
     
     #main-slider .carousel-caption h1 {
         font-size: $font-size;
+    }
+
+
+
+
+    #main-slider .carousel-caption .btn-primary{
+        font-size: $btn-primary-size;
+        transform: translate($btn-primary-translation);
+    }
+
+    .t108-one-page #about .about-box .icon-about{
+        width: $width;
+        height: $height;
+    }
+
+
+
+    .header-contact{
+        background-color: $bar-color;
+    }
+
+    .t108-one-page #counters-services  {
+        background-color: $bar-color;
+    }
+    
+    #slider-testimonials {
+        background-color: $bar-color;
+    }
+
+
+
+
+    .t108-one-page #portfolio .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name h6 {
+        color: $hover-color;
+    }
+
+    .t108-one-page #services .thumbnail .caption a h5:hover {
+        color: $hover-color;
+    }
+
+
+    .header-contact ul .fa-twitter:hover, .header-contact ul .fa-facebook:hover, .header-contact ul .fa-linkedin:hover, .header-contact ul .fa-google-plus:hover {
+        color: $hover-color;
+    }
+
+    body a:hover {
+        color: $hover-color;
+    }
+
+    .t108-footer .footer-above .footer-col .tweets a:hover {
+        color: $hover-color;
+    }
+
+
+    .btn-primary:hover {
+        background-color: $hover-color;
+        border-color: $hover-color;
+    }
+
+
+    .t108-one-page #team .container ul.social-buttons li a:hover, .t108-one-page #team .container ul.social-buttons li a:focus, .t108-one-page #team .container ul.social-buttons li a:active {
+        background-color: $hover-color;
+    }
+
+
+    .t108-footer .footer-above a:hover {
+        color: $hover-color;
+        
+    }
+
+    .t108-footer .footer-above .btn-default:hover{
+        border-color: $hover-color;
     }
